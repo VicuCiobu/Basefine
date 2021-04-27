@@ -11,3 +11,4 @@ end
 
 print("[Basefine] Successfully loaded, no errors detected!")
 print("[Basefine] If the files are .bfp, they are the plugins for Basefine!\n.bfp standing for: b: Base-, f: fine, p: Plugin")
+print("[Basefine Beta] Please not that Basefine is in beta! Bugs may occur.")
