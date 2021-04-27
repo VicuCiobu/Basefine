@@ -1,0 +1,13 @@
+if isfolder and makefolder and isfile and writefile then
+	if not isfolder("mods") then
+		makefolder("mods")
+		writefile("mods/template.bfp", "print('test')")
+	end
+else
+	warn("[Basefine Error] Your exploit does not support the following perk(s): Reading folders, making folders, reading files or writing files;\nreturning to roblox")
+	print("[Basefine] NOT successfully loaded, errors has been detected!")
+	return
+end
+
+print("[Basefine] Successfully loaded, no errors detected!")
+print("[Basefine] If the files are .bfp, they are the plugins for Basefine!\n.bfp standing for: b: Base-, f: fine, p: Plugin")
